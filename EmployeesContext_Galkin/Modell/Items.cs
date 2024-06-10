@@ -24,16 +24,6 @@ namespace EmployeesContext_Galkin.Modell
                 OnPropertyChanged("Id");
             }
         }
-        private double price;
-        public double Price
-        {
-            get { return price; }
-            set
-            {
-                price = value;
-                OnPropertyChanged("Price");
-            }
-        }
         private Categorys category;
         public Categorys Category
         {
@@ -62,6 +52,16 @@ namespace EmployeesContext_Galkin.Modell
             {
                 family = value;
                 OnPropertyChanged("Family");
+            }
+        }
+        private string name;
+        public string Name
+        {
+            get { return name; }
+            set
+            {
+                name = value;
+                OnPropertyChanged("Name");
             }
         }
     }
