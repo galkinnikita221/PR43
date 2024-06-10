@@ -39,9 +39,9 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
             <Label Content="Фамилия:" VerticalAlignment="Top" Margin="10,10,10,0"/>
-            <TextBox Text="{Binding Name}" Height="26" VerticalAlignment="Top" Margin="10,36,10,0" VerticalContentAlignment="Center" IsEnabled="False"/>
+            <TextBox Text="{Binding Family}" Height="26" VerticalAlignment="Top" Margin="10,36,10,0" VerticalContentAlignment="Center" IsEnabled="False"/>
             <Label Content="Отдел" VerticalAlignment="Top" Margin="10,10,10,0" Grid.Column="1"/>
-            <TextBox Text="{Binding Price}" Height="25" VerticalAlignment="Top" Margin="10,37,10,0" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1"/>
+            <TextBox Text="{Binding Otdel}" Height="25" VerticalAlignment="Top" Margin="10,37,10,0" VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1"/>
             <Label Content="Имя:" VerticalAlignment="Top" Margin="10,67,10,0" Grid.ColumnSpan="2"/>
             <TextBox Text="{Binding Category.Name}" Height="25" VerticalAlignment="Top" Margin="10,93,10,0" VerticalContentAlignment="Center" IsEnabled="False" Grid.ColumnSpan="2"/>
             <Label Content="Описание:" VerticalAlignment="Top" Margin="10,123,10,0" Grid.ColumnSpan="2"/>
